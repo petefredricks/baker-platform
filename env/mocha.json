@@ -1,0 +1,20 @@
+{
+  "server": {
+    "port": 5500
+  },
+  "database": {
+    "url": "mongodb://localhost/resume-yeti-platform-test"
+  },
+  "log": {
+    "transports": [
+      {
+        "type": "Console",
+        "options": {
+          "timestamp": true,
+          "colorize": true,
+          "level": "error"
+        }
+      }
+    ]
+  }
+}

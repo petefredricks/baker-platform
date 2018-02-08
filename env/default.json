@@ -1,0 +1,41 @@
+{
+  "app": {
+    "environment": "development",
+    "sessionLength": "30 days",
+    "sessionSecret": "mw07mxgfjssw3wrsllafjk"
+  },
+  "client": {
+    "root": "http://localhost:3000"
+  },
+  "database": {
+    "url": "mongodb://localhost/baker-platform"
+  },
+  "log": {
+    "transports": [
+      {
+        "type": "Console",
+        "options": {
+          "timestamp": true,
+          "colorize": true,
+          "level": "info"
+        }
+      }
+    ]
+  },
+  "mailers": {
+    "fields": {
+      "default": {
+        "from": "Testing Baker<testing@goosetail.com>",
+        "generateTextFromHTML": true
+      }
+    }
+  },
+  "server": {
+    "host": "localhost",
+    "port": 5000,
+    "secure": false,
+    "allowedOrigins": [
+      "localhost"
+    ]
+  }
+}
