@@ -1,15 +1,14 @@
 {
 	"app": {
-		"appUrl": "https://resumeyeti.uat-goosetail.com",
+		"appUrl": "https://baker.uat-goosetail.com",
 		"environment": "acceptance",
 		"sessionSecret": "bewikdopt5856ds47wnbr"
 	},
 	"client": {
-		"root": "https://resumeyeti.uat-goosetail.com",
-		"collectionShortCodeUrl": "http://uat.resyeti.com"
+		"root": "https://baker.uat-goosetail.com"
 	},
 	"database": {
-		"url": "mongodb://mongo-1.uat:27017/resume-yeti-platform,mongodb://mongo-2.uat:27017/resume-yeti-platform, mongodb://mongo-3.uat:27017/resume-yeti-platform"
+		"url": "mongodb://mongo-1.uat,mongo-2.uat,mongo-3.uat/baker-platform?replicaSet=rs_uat"
 	},
 	"log": {
 		"transports": [
@@ -23,13 +22,10 @@
 			}
 		]
 	},
-	"resetPassword": {
-		"linkPath": "https://resumeyeti.uat-goosetail.com/reset-password"
-	},
 	"server": {
 		"allowedOrigins": [
-			"resumeyeti.uat-goosetail.com",
-			"resumeyeti-platform.uat-goosetail.com"
+			"baker.uat-goosetail.com",
+			"baker-platform.uat-goosetail.com"
 		],
 		"host": "localhost",
 		"port": 5010

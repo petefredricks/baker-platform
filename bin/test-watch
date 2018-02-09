@@ -1,0 +1,6 @@
+#!/bin/bash
+
+FILES=$*
+: ${FILES:="./test"}
+
+nodemon -w ./ ./node_modules/.bin/mocha test/utils/configure.js $FILES

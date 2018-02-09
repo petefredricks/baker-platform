@@ -25,7 +25,7 @@
   "mailers": {
     "fields": {
       "default": {
-        "from": "Testing Baker<testing@goosetail.com>",
+        "from": "Baker Points Support<testing@goosetail.com>",
         "generateTextFromHTML": true
       }
     }
