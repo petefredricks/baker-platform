@@ -33,5 +33,5 @@
     "start": "./bin/start",
     "test-watch": "./bin/test-watch"
   },
-  "version": "0.1.0"
+  "version": "0.2.0"
 }
